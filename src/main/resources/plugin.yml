@@ -1,0 +1,6 @@
+name: DonationEffects
+version: ${project.version}
+main: com.fadecloud.donationeffects.DonationPlugin
+commands:
+  fadegg:
+    description: main command

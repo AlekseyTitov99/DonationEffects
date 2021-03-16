@@ -1,0 +1,29 @@
+##################
+# DonationEffects
+##################
+Duration: 7
+
+GG:
+  - "&3&k!&r &b&lG&3&lG &3&k!&r"
+  - "&5&k!&r &d&lG&5&lG &5&k!&r"
+  - "&6&k!&r &e&lG&6&lG &6&k!&r"
+  - "&4&k!&r &c&lG&4&lG &4&k!&r"
+  - "&7&k!&r &f&lG&7&lG &7&k!&r"
+
+WaveStart:
+  - " "
+  - "&3[&b&lFade&f&lCloud&3] &b%player% &fhas made a purchase on our store!"
+  - " &b&nstore.fadecloud.com &7- &c&l7&e&l5&a&l% &b&lO&d&lF&5&lF &c&lS&e&la&a&ll&b&le"
+  - " "
+  - "&eShow some love by typing &6'&egg&6' &ein chat!"
+
+WaveEnded:
+  - "&3[&b&lFade&f&lCloud&3] &bGG Waves have &3&nEnded&r&b!"
+
+Filter:
+  - "gg"
+  - "p2w"
+  - "ptw"
+  - "paytowin"
+  - "paytwowin"
+  - "paytoowin"
