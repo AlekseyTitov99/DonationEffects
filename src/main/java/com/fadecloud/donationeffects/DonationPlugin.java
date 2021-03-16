@@ -18,7 +18,7 @@ public final class DonationPlugin extends JavaPlugin implements Listener, Comman
     public void onEnable() {
         instance = this;
         saveDefaultConfig();
-        getCommand("fadegg").setExecutor(this);
+        getCommand("donation").setExecutor(this);
         getServer().getPluginManager().registerEvents(this, this);
     }
 
@@ -41,7 +41,7 @@ public final class DonationPlugin extends JavaPlugin implements Listener, Comman
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (args.length > 0) {
+        if (args.length > 0 && sender.hasPermission("donation.admin")) {
             String name = args[0];
             DonationSettings.sendWaveStartMessage(name);
 
